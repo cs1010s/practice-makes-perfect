@@ -14,7 +14,7 @@
 
 ## Q4 related stuff:
 * Tuple addition was often done without the extra brackets. Note the difference between:
-```
+```python
 x = (5,)
 tpl = ()
 tpl += x
@@ -29,7 +29,7 @@ print(tpl) # ((5,),)
 ```
 * Forgets the type of inputs, note that time differencing cannot be done with strings: `get_checkin(record) - get_checkout(record)` can't be done since they were both **strings**.
 * Wrongfully initialise the "accumulator" inside the loop instead of outside. Compare these 2 examples:
-```
+```python
 >>> tpl = ()
     for i in range(5):
       tpl += (i,)
