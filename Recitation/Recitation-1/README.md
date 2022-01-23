@@ -4,7 +4,7 @@ Rough Teaching Notes:
 3. Go through questions:
 * Concept of `if-elif-else`
    * Understand the equivalence between the usual block and the "one-liner" if-elif-else block: 
-   ```
+   ```python
    if expression1:
       statement1
    elif expression2:
